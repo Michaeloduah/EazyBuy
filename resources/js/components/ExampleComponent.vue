@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="logo">
-            <img src="../img/logo.jpg" alt="">
+            <img src="../img/logo.png" alt="">
             <a href="#" class="header__logo">EazyBuy</a>
         </div>
         <nav :class="['nav', { 'show': isActive }]" ref="nav-menu">
@@ -115,7 +115,7 @@
 
     @media screen and (max-width:768px) {
         header{
-            height: 48px;
+            height: 50px;
             justify-content: space-between;
             padding: 0 28px;
         }
@@ -123,7 +123,7 @@
             font-size: 0.9rem;
         }
         .logo img {
-            width: 30px;
+            width: 50px;
         }
         .header__toogle {
             display: inline;
